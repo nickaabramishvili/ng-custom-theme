@@ -1,10 +1,8 @@
 @use "@angular/material" as mat;
 
 @use "./styles/themes/light";
-@use "./styles/typography/config" as typography;
 
 @include mat.core();
-@include mat.core(typography.$my-app-typography);
 
 @include mat.core-theme(light.$my-app-light-theme);
 @include mat.button-theme(light.$my-app-light-theme);

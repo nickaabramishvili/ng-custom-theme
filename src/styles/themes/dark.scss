@@ -1,6 +1,5 @@
 @use "sass:map";
 @use "@angular/material" as mat;
-@use "../typography/config" as typography;
 
 $my-app-dark-primary: mat.define-palette(mat.$cyan-palette);
 $my-app-dark-accent: mat.define-palette(mat.$amber-palette);
